@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.375" name="JuizoFinal">
+  <DataContextMoniker Name="/JuizoFinalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dc30fe3f-53ad-4f7c-8cef-76f67bcc59cf" absoluteBounds="6.125, 4.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_cliente_falecido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3988a9a-f79f-424d-b0f4-f23c4749e066" absoluteBounds="6.14, 4.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1cdba6e-37a7-4467-8c01-4449b8e94404" absoluteBounds="3.625, 5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_dados_pagseguro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8178e96-b889-43f0-bbb5-84d0e98d2360" absoluteBounds="3.64, 5.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0137243a-b5e3-4720-9009-e84bb1d94e84" absoluteBounds="0.5, 1.125, 2, 5.4246240234375">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_falecido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1b1c042-b9b8-453b-88e2-4ec3e7004f5a" absoluteBounds="0.51499999999999968, 1.585, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.59375); (6.125 : 4.59375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/JuizoFinalDataContext/Juizofinal_falecido/Juizofinal_falecido_Juizofinal_cliente_falecido" />
+      <nodes>
+        <classShapeMoniker Id="0137243a-b5e3-4720-9009-e84bb1d94e84" />
+        <classShapeMoniker Id="dc30fe3f-53ad-4f7c-8cef-76f67bcc59cf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.5 : 2.99333428485577); (0.25 : 2.99333428485577); (0.25 : 4.72147915414663); (0.5 : 4.72147915414663)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/JuizoFinalDataContext/Juizofinal_falecido/Juizofinal_falecido_Juizofinal_falecido" />
+      <nodes>
+        <classShapeMoniker Id="0137243a-b5e3-4720-9009-e84bb1d94e84" />
+        <classShapeMoniker Id="0137243a-b5e3-4720-9009-e84bb1d94e84" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e4c38a7c-b29c-4d81-95da-f1c8efa6d1ff" absoluteBounds="1.625, 7.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_nivel_parentesco" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6e801d3a-da04-4311-98ec-998f8ecb4cb7" absoluteBounds="1.6400000000000001, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67c0692c-5987-4f41-b35e-7685cd8f1a3b" absoluteBounds="8.625, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_nivel_corporacao" />
+      <nestedChildShapes>
+        <elementListCompartment Id="381fa3c2-ddd3-400f-ac33-4259cddaca98" absoluteBounds="8.64, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93ba40ce-9181-410e-abb2-62fc12644fff" absoluteBounds="3.125, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2ce719d-c915-4e14-8d68-443d5dac43e4" absoluteBounds="3.14, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 3.74440755208333); (6.15625 : 3.74440755208333); (6.15625 : 4.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JuizoFinalDataContext/Juizofinal_cliente/Juizofinal_cliente_Juizofinal_cliente_falecido" />
+      <nodes>
+        <classShapeMoniker Id="93ba40ce-9181-410e-abb2-62fc12644fff" />
+        <classShapeMoniker Id="dc30fe3f-53ad-4f7c-8cef-76f67bcc59cf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="69465818-fab3-4005-80e1-512eda168e8a" absoluteBounds="6.25, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/JuizoFinalDataContext/Juizofinal_jazigo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e27a3866-dffa-4b90-882a-64e279562986" absoluteBounds="6.265, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 1.86620198567708); (6.25 : 1.86620198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JuizoFinalDataContext/Juizofinal_cliente/Juizofinal_cliente_Juizofinal_jazigo" />
+      <nodes>
+        <classShapeMoniker Id="93ba40ce-9181-410e-abb2-62fc12644fff" />
+        <classShapeMoniker Id="69465818-fab3-4005-80e1-512eda168e8a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="memoriafamiliar" Class="JuizoFinalDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=mssql04-farm68.kinghost.net;Initial Catalog=memoriafamiliar;Persist Security Info=True;User ID=memoriafamiliar" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="memoriafamiliarConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Juizofinal_cliente_falecido" Member="Juizofinal_cliente_falecidos">
+    <Type Name="Juizofinal_cliente_falecido">
+      <Column Name="ID_cliente" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_falecido" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Inclusao" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Alteracao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DT_Exclusao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Juizofinal_falecido_Juizofinal_cliente_falecido" Member="Juizofinal_falecido" ThisKey="ID_falecido" OtherKey="ID_falecido" Type="Juizofinal_falecido" IsForeignKey="true" />
+      <Association Name="Juizofinal_cliente_Juizofinal_cliente_falecido" Member="Juizofinal_cliente" ThisKey="ID_cliente" OtherKey="ID_cliente" Type="Juizofinal_cliente" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_dados_pagseguro" Member="Juizofinal_dados_pagseguros">
+    <Type Name="Juizofinal_dados_pagseguro">
+      <Column Name="Cod_transacao" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_Usuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="codigo_carrinho" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="codigo_pagto_transacao" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Data_Insercao" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Data_Alteracao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_falecido" Member="Juizofinal_falecidos">
+    <Type Name="Juizofinal_falecido">
+      <Column Name="ID_falecido" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_falecido_Pai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nome_falecido" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="data_nasceimento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="data_morte" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="epitafio" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Inclusao" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Alteracao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DT_Exclusao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Nome_falecido_busca" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Nome_mae" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nome_pai" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cidade_nascimento" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cidade_morte" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="causa_morte" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="foto_1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="foto_2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="foto_3" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="estrelas_brancas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="estrelas_azuis" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="estrelas_vermelhas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="vela" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="profissao" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="Juizofinal_falecido_Juizofinal_cliente_falecido" Member="Juizofinal_cliente_falecidos" ThisKey="ID_falecido" OtherKey="ID_falecido" Type="Juizofinal_cliente_falecido" />
+      <Association Name="Juizofinal_falecido_Juizofinal_falecido" Member="Juizofinal_falecidos" ThisKey="ID_falecido" OtherKey="ID_falecido_Pai" Type="Juizofinal_falecido" />
+      <Association Name="Juizofinal_falecido_Juizofinal_falecido" Member="Juizofinal_falecido1" ThisKey="ID_falecido_Pai" OtherKey="ID_falecido" Type="Juizofinal_falecido" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_nivel_parentesco" Member="Juizofinal_nivel_parentescos">
+    <Type Name="Juizofinal_nivel_parentesco">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Nivel_parentesco" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_nivel_corporacao" Member="Juizofinal_nivel_corporacaos">
+    <Type Name="Juizofinal_nivel_corporacao">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Nivel_corporacao" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_cliente" Member="Juizofinal_clientes">
+    <Type Name="Juizofinal_cliente">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ID_cliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nome_cliente" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Documento" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DT_Inclusao" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Alteracao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DT_Exclusao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Licenca_comprada" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Jazigo_comprado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Nome_jazigo" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Nome_completo" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Corporacao" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Nome_jazigo_corporacao" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="Juizofinal_cliente_Juizofinal_cliente_falecido" Member="Juizofinal_cliente_falecidos" ThisKey="ID_cliente" OtherKey="ID_cliente" Type="Juizofinal_cliente_falecido" />
+      <Association Name="Juizofinal_cliente_Juizofinal_jazigo" Member="Juizofinal_jazigos" ThisKey="ID_cliente" OtherKey="ID_cliente" Type="Juizofinal_jazigo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Juizofinal_jazigo" Member="Juizofinal_jazigos">
+    <Type Name="Juizofinal_jazigo">
+      <Column Name="ID_cliente" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_falecido" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Nivel_parentesco" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Nome_falecido" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="DT_Inclusao" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DT_Alteracao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DT_Exclusao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Nome_jazigo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Corporativo" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Juizofinal_cliente_Juizofinal_jazigo" Member="Juizofinal_cliente" ThisKey="ID_cliente" OtherKey="ID_cliente" Type="Juizofinal_cliente" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

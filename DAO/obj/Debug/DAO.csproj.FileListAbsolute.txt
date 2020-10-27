@@ -1,0 +1,12 @@
+C:\Memoria Familiar\Web_jf\DAO\bin\Debug\DAO.dll.config
+C:\Memoria Familiar\Web_jf\DAO\bin\Debug\DAO.dll
+C:\Memoria Familiar\Web_jf\DAO\bin\Debug\DAO.pdb
+C:\Memoria Familiar\Web_jf\DAO\obj\Debug\DAO.dll
+C:\Memoria Familiar\Web_jf\DAO\obj\Debug\DAO.pdb
+C:\Memoria Familiar\Web_jf\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Memoria-Familiar2019\Web_jf\DAO\bin\Debug\DAO.dll.config
+C:\Memoria-Familiar2019\Web_jf\DAO\bin\Debug\DAO.dll
+C:\Memoria-Familiar2019\Web_jf\DAO\bin\Debug\DAO.pdb
+C:\Memoria-Familiar2019\Web_jf\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Memoria-Familiar2019\Web_jf\DAO\obj\Debug\DAO.dll
+C:\Memoria-Familiar2019\Web_jf\DAO\obj\Debug\DAO.pdb

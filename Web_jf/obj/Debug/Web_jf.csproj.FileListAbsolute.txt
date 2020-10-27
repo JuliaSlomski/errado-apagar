@@ -1,0 +1,64 @@
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Web_jf.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Web_jf.pdb
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Antlr3.Runtime.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\AspNet.ScriptManager.jQuery.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DAO.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.AspNet.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.Core.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\EntityFramework.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\Microsoft.Web.Infrastructure.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\System.Web.Optimization.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\System.Web.Providers.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\WebGrease.dll
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DAO.pdb
+C:\Memoria Familiar\Web_jf\Web_jf\bin\EntityFramework.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.Core.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Memoria Familiar\Web_jf\Web_jf\bin\DotNetOpenAuth.AspNet.xml
+C:\Memoria Familiar\Web_jf\Web_jf\obj\Debug\Web_jf.csprojResolveAssemblyReference.cache
+C:\Memoria Familiar\Web_jf\Web_jf\obj\Debug\Web_jf.dll
+C:\Memoria Familiar\Web_jf\Web_jf\obj\Debug\Web_jf.pdb
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Web_jf.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Web_jf.pdb
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Antlr3.Runtime.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\AspNet.ScriptManager.jQuery.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DAO.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.AspNet.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.Core.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\EntityFramework.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\Microsoft.Web.Infrastructure.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\System.Web.Optimization.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\System.Web.Providers.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\WebGrease.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DAO.pdb
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\EntityFramework.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.Core.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\bin\DotNetOpenAuth.AspNet.xml
+C:\Memoria-Familiar2019\Web_jf\Web_jf\obj\Debug\Web_jf.csprojResolveAssemblyReference.cache
+C:\Memoria-Familiar2019\Web_jf\Web_jf\obj\Debug\Web_jf.dll
+C:\Memoria-Familiar2019\Web_jf\Web_jf\obj\Debug\Web_jf.pdb
